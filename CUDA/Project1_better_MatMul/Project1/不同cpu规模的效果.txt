@@ -1,0 +1,47 @@
+n1*n2:2048*2048
+TILE_WIDTH:2
+dimGrid:1024,1024,1
+dimBlock:2,2,1
+start of CUDA:978
+end of CUDA and start of CPU:414307
+cost:413.329
+
+n1*n2:2048*2048
+TILE_WIDTH:4
+dimGrid:512,512,1
+dimBlock:4,4,1
+start of CUDA:932
+end of CUDA and start of CPU:53420
+cost:52.488
+
+n1*n2:2048*2048
+TILE_WIDTH:8
+dimGrid:256,256,1
+dimBlock:8,8,1
+start of CUDA:992
+end of CUDA and start of CPU:14747
+cost:13.755
+
+n1*n2:2048*2048
+TILE_WIDTH:16
+dimGrid:128,128,1
+dimBlock:16,16,1
+start of CUDA:980
+end of CUDA and start of CPU:8848
+cost:7.868
+
+n1*n2:2048*2048
+TILE_WIDTH:32
+dimGrid:64,64,1
+dimBlock:32,32,1
+start of CUDA:1064
+end of CUDA and start of CPU:7688
+cost:6.624
+
+n1*n2:2048*2048
+TILE_WIDTH:64
+dimGrid:32,32,1
+dimBlock:64,64,1
+start of CUDA:982
+end of CUDA and start of CPU:986
+cost:0.004

@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file cuda_main.cu...
+  
+  C:\Users\DeLL\Desktop\CUDA\Project1\Project1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Visual Stdio 2019\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\cuda_main.cu.obj "C:\Users\DeLL\Desktop\CUDA\Project1\Project1\cuda_main.cu" 
+  cuda_main.cu
+C:/Users/DeLL/Desktop/CUDA/Project1/Project1/cuda_main.cu(42): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:/Users/DeLL/Desktop/CUDA/Project1/Project1/cuda_main.cu(43): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+cuda_main.cu.obj : error LNK2019: 无法解析的外部符号 _cublasCreate_v2@4，该符号在函数 _main 中被引用
+cuda_main.cu.obj : error LNK2019: 无法解析的外部符号 _cublasSetMatrix@28，该符号在函数 _main 中被引用
+cuda_main.cu.obj : error LNK2019: 无法解析的外部符号 _cublasGetMatrix@28，该符号在函数 _main 中被引用
+cuda_main.cu.obj : error LNK2019: 无法解析的外部符号 _cublasSgemm_v2@56，该符号在函数 _main 中被引用
+C:\Users\DeLL\Desktop\CUDA\Project1\Debug\Project1.exe : fatal error LNK1120: 4 个无法解析的外部命令

@@ -1,0 +1,19 @@
+n1*n2:4096*4096
+TILE_WIDTH:16
+dimGrid:256,256,1
+dimBlock:16,16,1
+start of CUDA:2780
+end of CUDA:178684
+cost:175.904
+
+
+n1*n2:4096*4096
+TILE_WIDTH:16
+dimGrid:256,256,1
+dimBlock:16,16,1
+start of CUDA:2780
+end of CUDA:86259
+cost:83.479
+
+
+
